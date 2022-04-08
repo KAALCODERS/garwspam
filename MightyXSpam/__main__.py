@@ -1,4 +1,3 @@
-# MightyXBotSpam || @MightyXSupport
 
 import asyncio
 import sys
@@ -22,8 +21,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("Mighty X Bot Spam Successfully Deployed !!")
-print("Enjoy! Do Visit @MightyXSupport")
+print("kaal Spam Successfully Deployed !!")
+print("Enjoy! Do Visit @kaal_network")
 
 if __name__ == "__main__":
     Mig.run_until_disconnected()
