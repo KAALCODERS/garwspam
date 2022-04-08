@@ -12,14 +12,14 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/2ead82e77994638db6e39.jpg"
+MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/20dda006e65de620ee475.jpg"
   
 
-mighty = "╚»★ 𝗠𝗶𝗴𝗵𝘁𝘆𝗫𝗦𝗽𝗮𝗺 𝗶𝘀 𝗛𝗲𝗿𝗲 ★«╝\n\n"
+mighty = "╚»★ 𝗞𝗔𝗔𝗟𝗦𝗣𝗔𝗠 𝗶𝘀 𝗛𝗲𝗿𝗲 ★«╝\n\n"
 mighty += f"═══════════════════\n"
 mighty += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 mighty += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-mighty += f"• **ᴍɪɢʜᴛʏXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{mightyversion}`\n"
+mighty += f"• **𝗞𝗔𝗔𝗟𝗦𝗣𝗔𝗠 ᴠᴇʀsɪᴏɴ**  : `{kaalversion}`\n"
 mighty += f"═══════════════════\n\n"   
 
                                   
@@ -40,11 +40,11 @@ async def alive(event):
                                   caption=mighty,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/MightyXUpdates"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/MightyXSupport")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/kaal_network"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/heaven_army")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/BeingMighty/MightyXBotSpam")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/garwmishra/garwspam")
         ]
         ]
         )
@@ -93,7 +93,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ᴍɪɢʜᴛʏ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ 𝗞𝗔𝗔𝗟𝗦𝗣𝗔𝗠 ϟ︎ `{ms}` ᴍs")
         
         
 
@@ -109,7 +109,7 @@ async def ping(e):
 @Mig10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗠𝗶𝗴𝗵𝘁𝘆 𝗫 𝗦𝗽𝗮𝗺... | Please Wait Few Seconds."
+        text = "𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗬𝗼𝘂𝗿 𝗞𝗔𝗔𝗟𝗦𝗣𝗔𝗠... | Please Wait Few Seconds."
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Mig.disconnect()
