@@ -36,7 +36,7 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) in MightyX:
-                text = f"I Can't Raid on MightyX's Owner"
+                text = f"I Can't Raid on kaal's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This Guy Is Owner Of These Bots."
@@ -129,7 +129,7 @@ async def _(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in MightyX:
-                text = f"I Can't Raid on MightyX's Owner."
+                text = f"I Can't Raid on kaal's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                 text = f"This Guy is Owner Of These Bots."            
@@ -142,7 +142,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                text = f"Activated ReplyRaid...😈"
+                text = f"Activated ReplyRaid by kaalspam...😈"
                 await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -150,7 +150,7 @@ async def _(e):
             user_idd = umser.id
             user_id = int(user_idd)
             if int(user_id) in MightyX:
-                text = f"I Can't Raid on MightyX's Owner."
+                text = f"I Can't Raid on kaal's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                 text = f"This Guy is Owner Of These Bots."
@@ -163,7 +163,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                text = f"Activated ReplyRaid...😈"
+                text = f"Activated ReplyRaid by kaalspam...😈"
                 await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
@@ -233,7 +233,7 @@ async def _(event):
              a = await event.client.get_entity(user)
              e = a.id
              if int(e) in MightyX:
-                    text = f"I Can't Raid on MightyX's Owner"
+                    text = f"I Can't Raid on kaal's Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) == OWNER_ID:
                 text = f"This Guy is Owner Of These Bots."
