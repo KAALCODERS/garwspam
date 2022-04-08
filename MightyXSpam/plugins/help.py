@@ -5,7 +5,7 @@ from time import time
 from datetime import datetime
 from MightyXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/f6ea9ab7683ec1d5f8f57.jpg"
+HELP_PIC = "https://telegra.ph/file/20dda006e65de620ee475.jpg"
 
 Mig_Help = "__Click On Below Buttons For Help__"
 
@@ -34,10 +34,10 @@ async def help(event):
             Button.inline("• Extra •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/MightyXUpdates")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/kaal_network")
            ],
            [
-           Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/MightyXSupport")
+           Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/heaven_army")
            ],
            ],
            )              
@@ -67,7 +67,7 @@ ii) {hl}leave : Type in the Group bot will auto leave that group
 **Packspam**: Sticker Pack Spam
 i) {hl}packspam (replying to any sticker)
 
-**© @MightyXSupport**
+**© @kaal_network**
 """
 
                  
@@ -152,16 +152,16 @@ async def helpback(event):
             Button.inline("Extra", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/MightyXUpdates")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/kaal_network")
            ],
            [
-           Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/MightyXSupport")
+           Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/heaven_army")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSupport"
+                "Noob !! Make Your Own kaal Spam Bots !! @kaal_network"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -189,7 +189,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSupport"
+                "Noob !! Make Your Own kaal Spam Bots !! @kaal_network"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -216,7 +216,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSupport"
+                "Noob !! Make Your Own kaal Spam Bots !! @kaal_network"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -244,7 +244,7 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSupport"
+                "Noob !! Make Your Own kaal Spam Bots !! @kaal_network"
             )
         await event.answer(Alert, cache_time=0, alert=True)
 
