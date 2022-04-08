@@ -18,20 +18,19 @@
 
 # Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BeingMighty/MightyBotSpam-deploy-)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/garwmishra/garwspam-deploy-)
 
 
 # Support & Updates
-* [⚡ Updates Channel ⚡](https://t.me/MightyXUpdates)
+* [⚡ Updates Channel ⚡](https://t.me/kaal_network)
 
-* [✨ Support Group ✨](https://t.me/MightyXSupport)
+* [✨ Support Group ✨](https://t.me/heaven_army)
 <br>
 
 <details>
  
   <summary> • 𝗖𝗿𝗲𝗱𝗶𝘁𝘀 • </summary>
   
-* [RiZoeL Creator](https://github.com/MrRizoel)
-* [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
+* [RiZoeL Creator](https://github.com/garwmishra)
 
 </details>
